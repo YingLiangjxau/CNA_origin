@@ -8,7 +8,7 @@ We proposed a two-step computational framework called CNA_origin to predict the 
 If you want to use CNA_origin, you need to  unzip the file  merge-sample.tar.gz first.
 
 The use of CNA_origin:
-deeplearning.py  -T PATH_GENE_CNV:        &emsp;File of the gene CNV   <br/>
+CNA_origin.py  -T PATH_GENE_CNV:        &emsp;File of the gene CNV   <br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;             -G PATH_LABEL:  &emsp;File of the sample label  <br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                 [-d DIM_NUMBER]:The Number of Features after Dimension Reduction, default:100     <br/>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                 [-k K_CROSS_VALIDATION]:&emsp;k fold cross validation, default:10      <br/>
