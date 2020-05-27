@@ -22,6 +22,8 @@ for example: python deeplearning.py -T merge-sample -G merge-group  <br/>
 
 CNA origin was implemented in python 3.7.3 using keras (2.24) with the backend of tensorflow (1.14.0)   <br/>
 
+The program now has a bug that can only be run using CPU (not GPU). We are trying to fix it.
+
 If you have any question,please send email to aliang1229@126.com.&emsp; We will continue to improve the code of CNA_origin.
 
 
