@@ -5,7 +5,7 @@
 We proposed a two-step computational framework called CNA_origin to predict the tissue-of-origin of a tumor from its gene CNA levels. CNA origin set up an intellectual deep-learning network mainly composed of autoencoder and convolution neural network (CNN).
 
 
-If you want to use CNA_origin, you need to  unzip the file  merge-sample.tar.gz first.
+If you want to use CNA_origin, you must have gene-level CNA file and label file.
 
 The use of CNA_origin:
 CNA_origin.py  -T PATH_GENE_CNV:        &emsp;File of the gene CNV   <br/>
@@ -18,7 +18,7 @@ CNA_origin.py  -T PATH_GENE_CNV:        &emsp;File of the gene CNV   <br/>
 
 
 These datasets were from primary solid tumor samples released by MSKCC in 2013, which could be downloaded from http://cbio.mskcc.org/cancergenomics/pancan_tcga/   <br/>
-for example: python deeplearning.py -T merge-sample -G merge-group  <br/>
+for example: python CNA_origin.py -T merge-sample -G merge-group  <br/>
 
 CNA origin was implemented in python 3.7.3 using keras (2.24) with the backend of tensorflow (1.14.0)   <br/>
 
