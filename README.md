@@ -17,7 +17,9 @@ CNA_origin.py  -T PATH_GENE_CNV:        &emsp;File of the gene CNV   <br/>
 
 
 
-These datasets were from primary solid tumor samples released by MSKCC in 2013, which could be downloaded from http://cbio.mskcc.org/cancergenomics/pancan_tcga/   <br/>
+The merge-group file contains sample label information. The merge-sample file contains the gene-level CNA information of 50 samples. The complete datasets were from primary solid tumor samples released by MSKCC in 2013, which could be downloaded from http://cbio.mskcc.org/cancergenomics/pancan_tcga/ or http://gdac.broadinstitute.org/.  We recommend using dataset with  sample size greater than 400. <br/>
+
+
 for example:&emsp; python CNA_origin.py &emsp;-T merge-sample &emsp; -G merge-group  <br/>
 
 CNA origin was implemented in python 3.7.3 using keras (2.24) with the backend of tensorflow (1.14.0)   <br/>
